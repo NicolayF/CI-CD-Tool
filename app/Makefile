@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++1 -Wall
+CFLAGS = -std=c++11 -Wall
 BIN_DIR = bin
 
 all: build test

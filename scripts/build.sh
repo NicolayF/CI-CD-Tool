@@ -1,6 +1,8 @@
 #!/bin/bash
 
 echo "Compilando..."
+cd app || exit 1
+
 if make build; then
     echo "Compilación sin errores!"
     exit 0

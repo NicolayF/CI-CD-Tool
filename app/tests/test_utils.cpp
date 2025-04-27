@@ -1,5 +1,5 @@
 #include <cassert>
-#include "utils.h"
+#include "../src/utils.h"
 
 int main() {
     assert(suma(2,3)==5);

@@ -2,6 +2,7 @@
 
 echo "Ejecutando tests..."
 echo "==================="
+cd app || exit 1
 
 if make test; then
     echo "Todos los tests pasaron!"
