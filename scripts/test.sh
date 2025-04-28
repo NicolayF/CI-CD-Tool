@@ -4,7 +4,7 @@ echo "Ejecutando tests..."
 echo "==================="
 cd app || exit 1
 
-if make test; then
+if make test > /dev/null; then
     echo "Todos los tests pasaron!"
     exit 0
 else
